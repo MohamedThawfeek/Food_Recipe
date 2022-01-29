@@ -1,0 +1,26 @@
+.container {
+  margin-top: 10px;
+}
+.box {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box h5 {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-variant: small-caps;
+  font-weight: 700;
+}
+.p {
+  font-size: 15px;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

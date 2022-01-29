@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("https://s3.envato.com/files/212542380/Dark%20Background%20%20%20%2001_preview1%20.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: auto;
+}
+
+.container h1 {
+  margin: 50px 0 0 0;
+  color: white;
+  font-variant: small-caps;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
